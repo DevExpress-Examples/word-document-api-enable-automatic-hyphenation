@@ -5,6 +5,12 @@
 <!-- default badges end -->
 # Word Processing Document API - How to Enable Automatic Hyphenation
 
-The following code sample shows how to link dictionaries to the Word Processing File API component to enable automatic hyphenation. The RichEditDocumentServer supports two types of dictionaries: **OpenOfficeHyphenationDictionary** and **CustomHyphenationDictionary**.
+The following code sample shows how to link dictionaries to the [Word Processing File API](https://docs.devexpress.com/OfficeFileAPI/17488/word-processing-document-api) component to enable automatic hyphenation. The `RichEditDocumentServer` supports two types of dictionaries: **OpenOfficeHyphenationDictionary** and **CustomHyphenationDictionary**.
 
-[Refer to the Hyphenation topic for more information](https://docs.devexpress.com/OfficeFileAPI/401149/word-processing-document-api/hyphenation?v=19.2).
+## Files to Review
+
+* [Program.cs](./CS/word-processing-hyphenation/Program.cs) (VB: [Program.vb](./VB/word-processing-hyphenation/Program.vb))
+
+## Documentation
+
+* [Hyphenation in Word Documents](https://docs.devexpress.com/OfficeFileAPI/401149/word-processing-document-api/hyphenation).
