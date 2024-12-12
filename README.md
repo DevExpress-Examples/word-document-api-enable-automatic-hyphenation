@@ -8,6 +8,9 @@
 
 The following code sample shows how to link dictionaries to the [Word Processing File API](https://docs.devexpress.com/OfficeFileAPI/17488/word-processing-document-api) component to enable automatic hyphenation. The `RichEditDocumentServer` supports two types of dictionaries: **OpenOfficeHyphenationDictionary** and **CustomHyphenationDictionary**.
 
+ [!Important]  
+> The Universal Subscription or an additional Office File API Subscription is required to use this example in production code. For pricing information, please refer to the [DevExpress Subscription](https://www.devexpress.com/Subscriptions/) page.
+
 ## Files to Review
 
 * [Program.cs](./CS/word-processing-hyphenation/Program.cs) (VB: [Program.vb](./VB/word-processing-hyphenation/Program.vb))
