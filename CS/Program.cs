@@ -40,7 +40,12 @@ namespace word_processing_hyphenation
 
             }
             //Open the result
-            Process.Start("Result.pdf");
+            var p = new Process();
+            p.StartInfo = new ProcessStartInfo(@"Result.pdf")
+            {
+                UseShellExecute = true
+            };
+            p.Start();
 
         }
     }

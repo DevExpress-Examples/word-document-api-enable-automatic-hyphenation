@@ -13,7 +13,7 @@ The following code sample shows how to link dictionaries to the [Word Processing
 
 ## Files to Review
 
-* [Program.cs](./CS/word-processing-hyphenation/Program.cs) (VB: [Program.vb](./VB/word-processing-hyphenation/Program.vb))
+* [Program.cs](./CS/Program.cs) (VB: [Program.vb](./VB/Program.vb))
 
 ## Documentation
 

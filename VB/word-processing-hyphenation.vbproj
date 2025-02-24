@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <RootNamespace></RootNamespace>
+	    <Nullable>enable</Nullable>
+	    <ImplicitUsings>enable</ImplicitUsings>
+	    <PlatformTarget>x86</PlatformTarget>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+        <DefineDebug>false</DefineDebug>
+    </PropertyGroup>
+    <ItemGroup>
+        <EmbeddedResource Include="hyphen.dic" />
+        <EmbeddedResource Include="hyphen_exc.dic" />
+        <None Update="Multimodal.docx">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+        <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
+        <PackageReference Include="DevExpress.RichEdit.Core" Version="24.2.*-*" />
+	    <PackageReference Include="DevExpress.Document.Processor" Version="24.2.*-*" />
+    </ItemGroup>
+</Project>

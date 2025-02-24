@@ -36,7 +36,10 @@ Namespace word_processing_hyphenation
 
 			End Using
 			'Open the result
-			Process.Start("Result.pdf")
+
+			Dim processor As New Process()
+			processor.StartInfo = New ProcessStartInfo("Result.pdf") With {.UseShellExecute = True}
+			processor.Start()
 
 		End Sub
 	End Class
