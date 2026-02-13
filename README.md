@@ -16,7 +16,7 @@ The following code sample shows how to link dictionaries to the [Word Processing
 
 * [Hyphenation in Word Documents](https://docs.devexpress.com/OfficeFileAPI/401149/word-processing-document-api/hyphenation).
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=word-document-api-enable-automatic-hyphenation&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=word-document-api-enable-automatic-hyphenation&~~~was_helpful=no)
 
